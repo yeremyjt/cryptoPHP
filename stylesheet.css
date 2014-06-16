@@ -1,0 +1,105 @@
+/* 
+    Document   : styles
+    Created on : Dec 25, 2011, 11:26:08 PM
+    Author     : lajtul
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    background-image: url("resources/background.png");
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    background-color: #000000;
+    font-family: 'Armata', sans-serif;
+    margin-bottom: 30px;
+    color: #33ff33;
+}
+
+#wrapper{
+    width: 600px;
+    margin: auto;
+}
+
+#header{    
+    height: 75px;
+    background-color: black;
+    text-align: center;
+    font-family: 'Armata', sans-serif;
+    color: white;
+    width: 100%;
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+h1{
+    margin: auto;
+    font-family: 'Armata', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#privateKeyField{
+    vertical-align: middle;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    background-color: black;
+    font-family: 'Armata', sans-serif;
+    color: #33ff33;
+    
+}
+
+#buttons{
+    margin-left: 0%;        
+}
+.actionButton{
+    width: 235px;
+    height: 75px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+    display: inline;
+    background: #777 repeat-x bottom;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #666;
+    font-family: 'Armata', sans-serif;    
+}
+
+
+
+label{
+    color: white;
+    font-family: 'Armata', sans-serif;
+    font-weight: bold;
+    float: left;
+    width: 49%;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+input
+{
+    float: none;
+    width: 29%;
+    margin-bottom: 20px;
+    
+    
+}
+
+
